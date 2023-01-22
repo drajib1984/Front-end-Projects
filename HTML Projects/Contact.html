@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="favicon" href="/Images/favicon.png" />
+    <link rel="stylesheet" href="/stylesheet.css" />
+    <title>Contact us</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="contact-top">Contact us</h1>
+      <nav>
+        <ul>
+          <li><a href="/HTML Projects/Home.html">Home</a></li>
+          <li>
+            <a href="/HTML Projects/Home.html#ids"
+              ><abbr title="Indian Dosa Shop">About IDS</abbr></a
+            >
+          </li>
+          <li><a href="/HTML Projects/Home.html#menu">Our Menu</a></li>
+          <li>
+            <a href="/HTML Projects/Store-hours.html#store-hours"
+              >Store Hours</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <img
+        src="/HTML Projects/Images/Neer-Dosa.jpg"
+        alt="Traditional Dosa"
+        height="200px"
+      />
+      <p>Traditional dosa</p>
+    </header>
+    <main>
+      <article>
+        <section>
+          <h2 id="contact">Our Contact Form</h2>
+          <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+              <legend>Send us a message</legend>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="your name"
+                required
+              />
+              <br />
+              <br />
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="your email"
+                required
+              />
+              <br />
+              <br />
+              <label for="contact">Your message</label>
+              <br />
+              <textarea
+                name="contact"
+                id="contact"
+                cols="30"
+                rows="10"
+                placeholder="type your message here"
+                required
+              ></textarea>
+              <br />
+              <input type="submit" value="submit" />
+              <input type="reset" value="reset" />
+            </fieldset>
+          </form>
+        </section>
+        <section>
+          <h2>Our Location</h2>
+          <address>
+            6 RoseBank Drive
+            <br />
+            Scarborough, M1B0A1
+            <br />
+            Phone : <a href="tel:+6475240671">647-524-0671</a>
+          </address>
+        </section>
+      </article>
+      <footer>
+        <a href="#contact-top">Back to Top</a>
+        <hr />
+      </footer>
+    </main>
+  </body>
+</html>
